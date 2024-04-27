@@ -6,12 +6,14 @@ import Cats from "./Cats";
  
 // import Contact from "./components/Contact";
 // import Store from "./components/Store";
+import Error from "./components/Error";
 import Home from "./Home";
 
 
 const router = createBrowserRouter ([
     {
         element: <Layout/>,
+        errorElement: <Error/>,
         children: [
             {
                 path: '/',
