@@ -208,3 +208,11 @@
   margin-top: 20px;
   color:#5f5e5e;
 }
+.storeHeader{
+  height:100px;
+
+  width: 100%;
+  text-align: center;
+  color:#484747;
+  background-color: #de96b0;
+}

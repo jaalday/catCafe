@@ -9,6 +9,7 @@ import Cats from "./Cats";
 import Error from "./components/Error";
 import Home from "./Home";
 import Contact from "./Contact";
+import Store from "./Store";
 
 
 const router = createBrowserRouter ([
@@ -32,10 +33,10 @@ const router = createBrowserRouter ([
                 path: '/contact',
                 element: <Contact/>
             },
-            // {
-            //     path: '/store',
-            //     element: <Store/>
-            // }
+            {
+                path: '/store',
+                element: <Store/>
+            }
             
         ],
     },
