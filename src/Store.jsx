@@ -118,7 +118,9 @@ export const products = [
 
 const Store = () => {
     
-    const {addToCart} = useContext(ShopContext); 
+    const {addToCart, cartItems} = useContext(ShopContext); 
+
+    const cartItemammount =  cartItems[products.id]
         
       
 
@@ -140,7 +142,7 @@ const Store = () => {
                             <h2>{product.name}</h2>
                             <p>${product.price}</p>
                             <img className="img2" src={product.img} alt={product.name}/>
-                            <button className="add-to-cart-btn" onClick={() => addToCart(product.id)}>Add to Cart</button>
+                            <button className="add-to-cart-btn" onClick={() => addToCart(product.id)}>Add to Cart {cartItemammount > 0 && <>(cartItemammount)</>}</button>
                         </div>
                     );
                 })

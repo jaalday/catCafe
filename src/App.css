@@ -246,3 +246,17 @@
 .add-to-cart-btn:hover{
   background-color: #e99259;
 }
+.cart{
+  display: inline-block;
+}
+.cartItems{
+  display: inline-block;
+
+  width: 300px;
+  height: fit-content;
+  margin-left: 40%;
+  margin-bottom: 20px;
+  background-image: linear-gradient(  to left, #f2be9b, #de96b0);
+  border-radius: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
