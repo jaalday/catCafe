@@ -7,8 +7,8 @@ const Cats = () => {
     <>
     <div className="root">
         <h1 className="cat-title">Our Cats</h1>
-        <h3 className="cat-para">Meet our cats.   All of our cats are rescues and available for adoption. 
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur suscipit eaque vel odit dolorem quos dicta? Nisi labore, hic maxime quo rem expedita repellat, esse sit laboriosam mollitia ullam deleniti?</h3>
+        <h3 className="cat-para">Meet our cats!   All of our cats are rescues and available for adoption, through local fosters and humane societies. If you would like to talk about our foster program, contact us today!
+          </h3>
       
        
       <div className="cat-grid">

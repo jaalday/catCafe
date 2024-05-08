@@ -1,4 +1,5 @@
 import './App.css'
+import Cats from './Cats'
 
 
 
@@ -14,6 +15,7 @@ function Home() {
     <p className='para'>Where cats and coffee come together</p>
     </div>
     </div>
+    <Cats/>
     
  
     </>

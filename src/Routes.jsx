@@ -2,10 +2,11 @@ import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import Layout from "./components/Layout";   
 import About from "./About";
 import Cats from "./Cats";
-// import Cats from "./components/Cats";  
+import Cart from "./Cart";
+ 
  
 
-// import Store from "./components/Store";
+
 import Error from "./components/Error";
 import Home from "./Home";
 import Contact from "./Contact";
@@ -36,7 +37,12 @@ const router = createBrowserRouter ([
             {
                 path: '/store',
                 element: <Store/>
+            },
+            {
+                path: '/cart',
+                element: <Cart/>
             }
+        
             
         ],
     },

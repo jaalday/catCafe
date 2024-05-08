@@ -27,7 +27,10 @@ const Navigation = () => {
             <h3>
                 <Link  className='navText' to="/store">Store</Link>
             </h3>
-            <img  className="cart"src="https://static.vecteezy.com/system/resources/previews/019/787/018/non_2x/shopping-cart-icon-shopping-basket-on-transparent-background-free-png.png"/>
+            <h4>
+                <Link  className='navText' to="/cart">Cart</Link>
+            </h4>
+
          
             </div>
 
