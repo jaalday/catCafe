@@ -7,7 +7,7 @@ import { ShopContext } from "./components/Shop-context";
 
  export const Cart = () => {
 
-    const {cartItems} = useContext(ShopContext);
+    const {cartItems, removeFromCart, addToCart} = useContext(ShopContext);
 
     return (
         <>
@@ -15,24 +15,26 @@ import { ShopContext } from "./components/Shop-context";
         <p className="cartText">Your cart items!</p>
 
         <div className="cartItems">
+          
         {products.map((product) => {
             if (cartItems[product.id] > 0) {
                 return (
+                   
                     <div key={product.id} className="cartItem">
                         <h3>{product.name}</h3>
                         <img className="img2" src={product.img} alt={product.name}/>
                         <p>Price: ${product.price}</p>
                         <p>Quantity: {cartItems[product.id]}</p>
+                        <div className="countHandler">
+                            <button onClick={() => removeFromCart(product.id)}>-</button>
+                            <button onClick={() => addToCart(product.id)}>+</button>
+                        </div>
                     </div>
                 )
             }
         })}
-        <div className="cart">
-           
-      
-           
-            </div>
         </div>
+    
         </>
     );
 
