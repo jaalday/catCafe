@@ -8,7 +8,7 @@ const Menu = () => {
       <h1>Menu</h1>
       <ul>
         <p>Can be made substituted almond or oat milk</p>
-        <h3>Drinks</h3>
+        <h3 className="menuTitle">Drinks</h3>
         <li>Latte</li>
         
         <li>Mocha</li>
@@ -19,10 +19,10 @@ const Menu = () => {
         <li>Macha</li>
       </ul>
       <ul>
-        <h3>Food</h3>
-        <article><p className="item">Honey Croissants</p><p className="price"></p>$9.99</article>
+        <h3 className="menuTitle">Food</h3>
+        <article className="item"><p >Honey Croissants</p><p className="price"></p>$9.99</article>
         <p>comes with 5</p>
-        <li>Bagel</li>
+        <article className="item"><p>Bagel</p><p className="price">$5.99</p></article>
         <li>Salad</li>
         <li>Toast</li>
         <li>Pastry</li>
