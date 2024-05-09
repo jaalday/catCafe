@@ -3,14 +3,16 @@ import Layout from "./components/Layout";
 import About from "./About";
 import Cats from "./Cats";
 import Cart from "./Cart";
+import Menu from "./Menu";
  
  
 
 
 import Error from "./components/Error";
 import Home from "./Home";
-import Contact from "./Contact";
+
 import Store from "./Store";
+
 
 
 const router = createBrowserRouter ([
@@ -31,8 +33,8 @@ const router = createBrowserRouter ([
                 element: <Cats/>
             },
             {
-                path: '/contact',
-                element: <Contact/>
+                path: '/menu',
+                element: <Menu/>
             },
             {
                 path: '/store',

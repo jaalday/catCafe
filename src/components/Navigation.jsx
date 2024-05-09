@@ -22,7 +22,7 @@ const Navigation = () => {
             <Link  className='navText' to="/cats">Cats</Link>
             </h3>
             <h3>
-                <Link  className='navText' to="/contact">Contact</Link>
+                <Link  className='navText' to="/menu">Menu</Link>
             </h3>
             <h3>
                 <Link  className='navText' to="/store">Store</Link>
@@ -30,6 +30,7 @@ const Navigation = () => {
             <h4>
                 <Link  className='navText' to="/cart">Cart</Link>
             </h4>
+
 
          
             </div>
