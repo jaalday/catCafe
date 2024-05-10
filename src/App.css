@@ -290,6 +290,7 @@
  
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding-bottom: 30px;
+  border: 3px solid #6d6b6a;
 
 }
 .item p {
