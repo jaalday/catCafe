@@ -1,5 +1,6 @@
 import './App.css'
 import Cats from './Cats'
+import About from './About'
 
 
 
@@ -16,6 +17,7 @@ function Home() {
     </div>
     </div>
     <Cats/>
+    <About/>
     
  
     </>
