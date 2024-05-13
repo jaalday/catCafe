@@ -1,7 +1,7 @@
 import './App.css'
 import Cats from './Cats'
 import About from './About'
-import Contact from './Contact'
+
 
 
 
@@ -19,7 +19,7 @@ function Home() {
     </div>
     <Cats/>
     <About/>
-    <Contact/>
+  
     
  
     </>

@@ -31,6 +31,7 @@ const Menu = () => {
         <article className="item"><p>House Salad</p><p className="price">$7.99</p></article>
        <article className="item"><p>French Toast</p><p className="price">$11.99</p></article> 
        <article className="item"><p>Avocado Toast</p><p className="price">$8.99</p></article>
+       <article className="item"><p>Club Sandwich</p><p className="price">$8.99</p></article>
      
    
       </section>
