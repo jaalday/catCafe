@@ -34,6 +34,7 @@ import { ShopContext } from "./components/Shop-context";
             }
         })}
         </div>
+        {/* put an adding equation here for the total in the cart */}
     
         </>
     );
