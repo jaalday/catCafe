@@ -31,16 +31,16 @@ const Cats = () => {
           <img className="img-one" src="https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-domestic-cat-mjf-1540-382ba2.jpg"/>
         </div>
         <div className="six">
-          <p>cat 6</p>
+          <img className="img-one" src="https://moderncat.com/wp-content/uploads/2015/12/Himalayan-640x436.jpg"/>
         </div>
         <div className="seven">
-          <p>cat 7</p>
+          <img className="img-one" src="https://images.wagwalkingweb.com/media/daily_wag/blog_articles/hero/1692605499.6093512/orange-cat.jpg"/>
         </div>
         <div className="eight">
-          <p>cat 8</p>
+          <img className="img-one" src="https://nypost.com/wp-content/uploads/sites/2/2013/10/petscover2.jpg?quality=75&strip=all&w=744"/>
         </div>
         <div className="nine">
-          <p>cat 9</p>
+         <img className="img-one" src="https://www.thesprucepets.com/thmb/D7ZYblr0r0dq4RtxpS8U9ZwNrCg=/6277x0/filters:no_upscale():strip_icc()/all-about-tabby-cats-4145476-hero-d6eb349cbacb4c7193007b49ead874ff.jpg"/>
         </div>
      
 
