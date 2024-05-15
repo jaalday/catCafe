@@ -170,7 +170,7 @@
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-image: linear-gradient(  to left, #f2be9b, #de96b0);
+  /* background-image: linear-gradient(  to left, #f2be9b, #de96b0); */
 }
 .five{
   margin: 30px;
@@ -178,7 +178,7 @@
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-image: linear-gradient(  to left, #f2be9b, #de96b0);
+  /* background-image: linear-gradient(  to left, #f2be9b, #de96b0); */
 }
 .six{
   margin: 30px;
@@ -186,7 +186,7 @@
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-image: linear-gradient(  to left, #f2be9b, #de96b0);
+  /* background-image: linear-gradient(  to left, #f2be9b, #de96b0); */
 }
 .seven{
   margin: 30px;
