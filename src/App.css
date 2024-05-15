@@ -254,6 +254,25 @@
 .cart{
   display: inline-block;
 }
+.cartItem{
+  display: inline-block;
+  width: 400px;
+
+
+  margin-bottom: 20px;
+  background-image: linear-gradient(  to left, #f2be9b, #de96b0);
+ margin-left: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.cartImg{
+  width: 80%;
+  height: 100%;
+  border-radius: 30px;
+  margin: auto;
+
+
+}
 .cartItems{
   display: inline-block;
  
@@ -283,6 +302,7 @@
   background-image: linear-gradient(  to left, #f2be9b, #de96b0);
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 3px solid #6d6b6a;
 }
 .grid1{
   grid-column-start: 1;
