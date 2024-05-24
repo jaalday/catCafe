@@ -1,5 +1,7 @@
 
-
+body{
+  max-width: 3200px;
+}
 
 .salsa-regular {
   font-family: "Salsa", cursive;
