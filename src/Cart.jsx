@@ -26,8 +26,8 @@ import { ShopContext } from "./components/Shop-context";
                         <p>Price: ${product.price}</p>
                         <p>Quantity: {cartItems[product.id]}</p>
                         <div className="countHandler">
-                            <button onClick={() => removeFromCart(product.id)}>-</button>
-                            <button onClick={() => addToCart(product.id)}>+</button>
+                            <button className="minus" onClick={() => removeFromCart(product.id)}>-</button>
+                            <button className="plus" onClick={() => addToCart(product.id)}>+</button>
                         </div>
                     </div>
                 )
